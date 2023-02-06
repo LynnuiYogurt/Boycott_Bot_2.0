@@ -42,23 +42,25 @@ async def chek_by_name(message: types.Message):
 	pass
 
 
-@dp.callback_query_handler(cb_inline.filter(action='myact'))
+@dp.callback_query_handler(cb_inline.filter(action='ua'))
 async def ua_list(callback_query: types.CallbackQuery):
-			with  open(f'{PROJECT_ROOT}/Lists of companies/Українські компанії.txt','rb') as ua_list:
-				await bot.send_document(callback_query.message.chat.id, document=ua_list)@dp.callback_query_handler(cb_inline.filter(action='myact'))
-
-async def left_list(callback_query: types.CallbackQuery):
-			with  open(f'{PROJECT_ROOT}/Lists of companies/Компанії, що покинули ринок.txt','rb') as left_list:
-				await bot.send_document(callback_query.message.chat.id, document=left_list)@dp.callback_query_handler(cb_inline.filter(action='myact'))
-
-async def stay_list(callback_query: types.CallbackQuery):
 			with  open(f'{PROJECT_ROOT}/Lists of companies/Українські компанії.txt','rb') as ua_list:
 				await bot.send_document(callback_query.message.chat.id, document=ua_list)
 
+@dp.callback_query_handler(cb_inline.filter(action='left'))
+async def left_list(callback_query: types.CallbackQuery):
+			with  open(f'{PROJECT_ROOT}/Lists of companies/Компанії, що покинули ринок.txt','rb') as left_list:
+				await bot.send_document(callback_query.message.chat.id, document=left_list)
 
+@dp.callback_query_handler(cb_inline.filter(action='stay'))
+async def stay_list(callback_query: types.CallbackQuery):
+			with  open(f'{PROJECT_ROOT}/Lists of companies/Компанії, що залишися на ринку.txt','rb') as stay_list:
+				await bot.send_document(callback_query.message.chat.id, document=stay_list)
+
+@dp.callback_query_handler(cb_inline.filter(action='root'))
 async def root_list(callback_query: types.CallbackQuery):
-	with  open(f'{PROJECT_ROOT}/Lists of companies/Українські компанії.txt', 'rb') as ua_list:
-		await bot.send_document(callback_query.message.chat.id, document=ua_list)
+	with  open(f'{PROJECT_ROOT}/Lists of companies/Компанії з рашистським корінням.txt', 'rb') as root_list:
+		await bot.send_document(callback_query.message.chat.id, document=root_list)
 
 
 
@@ -66,3 +68,7 @@ def register_handlers_client(dp: Dispatcher):
 	dp.register_message_handler(command_start, commands=['start', 'help'])
 	dp.register_message_handler(global_action)
 	dp.register_message_handler(ua_list, commands=['ua_list'])
+	dp.register_message_handler(left_list, commands=['left_list'])
+	dp.register_message_handler(stay_list, commands=['stay_list'])
+	dp.register_message_handler(root_list, commands=['root_list'])
+
