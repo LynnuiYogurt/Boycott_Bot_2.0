@@ -1,4 +1,3 @@
-===== 🔴 Компанії, що залишися на ринку =====
 
 - 4MOVE: Frugo, Black, Gellwe, Fitella.
 - Aalberts
@@ -30,7 +29,7 @@
 - AmerisourceBergen
 - Anta Sports
 - Arc International: Luminarc, Arcoroc, Longchamps, Рyrex, Люмінарк.
-- Arçelik A. Ş.: Beko, Altus, Arçelik, Dawlance, Blomberg, Defy, Leisure, Arstil, Bregenz, Elektra, Flavel.
+- Arçelik : Beko, Altus, Arçelik, Dawlance, Blomberg, Defy, Leisure, Arstil, Bregenz, Elektra, Flavel.
 - Ariston Group: Aqualtis, Ariston .
 - Artdeco: артдеко, арт деко, art deco, artdeko.
 - ASICS
