@@ -5,9 +5,9 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton,InlineKeyboardMark
 
 
 
-chek_name = KeyboardButton('Перевірка за назвою')
+check_name = KeyboardButton('Перевірка за назвою',)
 lists = KeyboardButton('Списки компаній')
-chek_photo = KeyboardButton('Перевірка за фото')
+check_photo = KeyboardButton('Перевірка за фото')
 
 kb_client_global = ReplyKeyboardMarkup(resize_keyboard=True)
 
@@ -20,6 +20,6 @@ root = InlineKeyboardButton(text = '🔴🔴Компанії з ришистсь
 
 kb_client_list = InlineKeyboardMarkup(row_width=1)
 
-kb_client_global.add(chek_name).add(lists).add(chek_photo)
+kb_client_global.add(check_name).add(lists).add(check_photo)
 
 kb_client_list.add(ua).add(left).add(stay).add(root)
