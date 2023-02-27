@@ -1,5 +1,5 @@
 from models import CompanyName, Company,DBSession
-# list_of_companies = open('Lists of companies/Компанії, що покинули ринок.txt','r',encoding='utf-8')
+# list_of_companies = open('Lists_of_companies/Компанії, що покинули ринок.txt','r',encoding='utf-8')
 #
 # for i in list_of_companies.readlines():
 #     i = i.replace('-','').strip()
