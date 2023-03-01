@@ -6,4 +6,6 @@ from create_bot import dp
 from handlers.client import *
 
 
-executor.start_polling(dp, skip_updates=True)
+a = executor.start_polling(dp, skip_updates=True)
+bot_thread = threading.Thread(target=a)
+bot_thread.start()
