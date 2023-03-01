@@ -1,7 +1,7 @@
 from aiogram import types
 from aiogram.dispatcher import filters, FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
-
+import threading
 from create_bot import dp, bot
 from keyboards import kb_client_global, kb_client_list
 from models import DBSession, CompanyName, Company
@@ -59,21 +59,24 @@ async def check_by_name(message: types.Message):
 
 @dp.message_handler(state=CheckByName.waiting_for_name)
 async def process_check_name(message: types.Message, state: FSMContext):
-	company_name = message.text
-	session = DBSession
-	company = session.query(Company).join(CompanyName).filter(CompanyName.name.ilike(f'%{company_name}%')).first()
-	company_id = company.id
-	list_of_names = session.query(CompanyName).filter_by(company_id=company_id).all()
-	name = ''
-	for it in list_of_names:
-		if company_name.lower() in it.name.lower(): name = it.name
-	if company:
-		description = company.description
-		await message.reply(f'{name}:{description}', reply_markup=kb_client_global)
-	else:
+	try:
+		company_name = message.text.lower()
+		session = DBSession
+		company = session.query(Company).join(CompanyName).filter(CompanyName.name.ilike(f'%{company_name}%')).first()
+		company_id = company.id
+		list_of_names = session.query(CompanyName).filter_by(company_id=company_id).all()
+		name = ''
+		for it in list_of_names:
+			if company_name.lower() in it.name.lower(): name = it.name
+		if company:
+			description = company.description
+			await message.reply(f'{name}:{description}', reply_markup=kb_client_global)
+		# else:
+		# 	await message.reply(f"Компанію: {company_name} не знайдено ", reply_markup=kb_client_global)
+		await state.finish()
+	except AttributeError:
 		await message.reply(f"Компанію: {company_name} не знайдено ", reply_markup=kb_client_global)
-	await state.finish()
-
+		await state.finish()
 
 @dp.message_handler(filters.Regexp('Списки компаній'))
 async def send_list(message: types.Message):
@@ -94,7 +97,7 @@ async def process_send_list(callback_query: types.CallbackQuery, state: FSMConte
 	else:
 		file_name = None
 	if file_name is not None:
-		with open(f'{PROJECT_ROOT}/Lists of companies/{file_name}', 'rb') as file_list:
+		with open(f'{PROJECT_ROOT}/List_of_companies/{file_name}', 'rb') as file_list:
 			await bot.send_document(callback_query.message.chat.id, document=file_list)
 	await callback_query.answer()
 	await state.finish()
