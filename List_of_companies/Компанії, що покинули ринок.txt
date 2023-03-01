@@ -1,0 +1,667 @@
+- 1Password
+- 3M
+- Abobe: адобі, адобе, адоб.
+- Abrdn
+- Accenture
+- Accountor
+- Acer
+- Acronis: акроніс, екроніс, Acronis.
+- Activision Blizzard: актівіжн бліззард, актівіжн блізард.
+- Adamed
+- Adenza: Аденза, Аденца.
+- Adidas: Adidas, Reebok.
+- Adobe: Photoshop, Illustrator, фотошоп.
+- ADP
+- AECOM
+- AerCap
+- AG Barr
+- Air Astana
+- Air Malta
+- Air Products: Ейр Продактс, Air Products.
+- AirBaltic
+- Airbnb
+- Airbus: ейрбас, ейрбус.
+- Ajax Systems: Ajax, аякс.
+- Akamai
+- Akin Gump: акін гамп, айкін гамп.
+- Alaska Airlines
+- Alcoa: алкоа, Alcoa.
+- Aldi: алді, Aldi.
+- Alfaparf: альфапарф, альфа парф.
+- Allegro: Аллегро, Allegro.
+- Allen & Overy
+- AllSaints
+- Alstom: альстом, алстом.
+- Amazon: амазон, Amazon web services, AWS.
+- AMD
+- Amer Sports: Salomon, Arc’teryx, Peak Performance, Atomic, Suunto, Armada, ENVE Composites, Sports Tracker, амер спортс, еймер спортс.
+- American Airlines
+- American Express
+- Ametek
+- amica
+- Ampol: амполь, ампол.
+- Amsted Rail
+- Amway: Glister, Nutrilite, Amway.
+- Android
+- Aon PLC
+- Apple: епл, епле, Iphone, айфон, MacBook, Apple Watch, AirPods, ейрподс, Апл, Аппл, іРhone.
+- ArcelorMittal: арцелорміттал, ArcelorMittal.
+- Arconic
+- Arendt & Medernach
+- Arla
+- Asda: George, Асда, джордж, Asda.
+- Asian Infrastructure Investment Bank
+- Askfm: аскфм, аск фм.
+- ASOS
+- Assicurazioni Generali
+- Aston Martin
+- Asus
+- Atlas Copco: атлас копко, атлас сопсо.
+- Atlassian: Jira, атлассіан, атласіан, джира, Confluence, Конфлюенс, Trello, Трелло.
+- Atos
+- Atria
+- Audi
+- Austrian Airlines
+- Autodesk
+- Automatic Data Processing 
+- Avast
+- Avery Dennison
+- Avid
+- Avon
+- Bain: бейн, байн.
+- Baker Botts LLP: бейкер боттс, Baker Botts.
+- Baker McKenzie
+- Baker Tilly
+- Bakoma: бакома, Bakoma.
+- Ball Corporation
+- Banco Santander SA
+- Bank of China
+- BASF SE
+- Basilur Tea
+- Bauer
+- BBC: ббс, бі бі сі.
+- BBDO
+- BCG
+- Beam Suntory: Jim Beam, Maker's Mark, Old Grand-Dad, Old Crow, Baker's, Basil Hayden's, Booker's, Knob Creek, Knob Creek Rye, Old Overholt, Kessler, Beam's Eight Star, Laphroaig, Bowmore, Ardmore.
+- becherovka: бехіровка, біхіровка.
+- Bentley
+- Berrett Kohler
+- Bestseller: Jack&Jones, Vero Moda.
+- Bethesda Softworks
+- Biedronka
+- Bielenda
+- BIFF
+- Binance: бінанс, байненс.
+- BioMar
+- Biotrade Cosmeceuticals: Biotrade, Біотрейд космецевтікалс, Біотрейд.
+- Birkenstock
+- Bitdefender
+- Black Diamond
+- Blackberry
+- BlackRock: блекрок, BlackRock.
+- Bloober Team: The Medium, Blair Witch, Observer, Layers of Fear.
+- BMW: бмв, MINI, MINI Cooper.
+- BNP Paribas
+- Boeing
+- Bolt
+- Bombardier: бомбардір, бомбардьєр.
+- Bonava
+- Boohoo Group: Boohoo, бохо, буху, PrettyLittleThing, Nasty Gal, MissPap, Oasis, Wallis, Coast, Karen Millen, Warehouse, Dorothy Perkins, Burton, несті гел, несті гал, оазіс, оасіс, волліс, коаст, карен міллен.
+- Booking: букінг ком, букінг.
+- Boosteroid
+- Bose: Бозе, Bose.
+- Boska
+- BP
+- Bridgestone: бріджстоун, Bridgestone Tires.
+- Brit
+- British American Tobacco: glo, neo, KENT, Rothmans, Vogue, Pall Mall, Lucky Strike, vuse, Velo, Grizzly, Dunhill, Newport, Natural american spirit, Glo Neo, Прилуки.
+- Brown-Forman Corp: джек деніел, Finlandia, Jack Daniel's, Jack Daniels, Sonoma-Cutrer, Korbel, Chambord, Fords gin, el Jimador tequila, Herradura, Woodford reserve, Old forester, Slane, Benriach, Coopers' craft, Фінляндія.
+- Bryan Cave: Брайан Кейв, Bryan Cave.
+- Bumble: Бамбл, Bumble.
+- Burberry: Барберрі, Барбері.
+- Burger King
+- C&A
+- Canada Goose
+- Canadian Tire Corporation: Канадіан таєр, Helly Hansen, PartSource, FGL Sports, Canadian Tire Bank, Mark's, Party City Canada, Canadian Tire.
+- Canva
+- Capcom: Resident Evil Village, Monster Hunter Rise.
+- Capgemini
+- Capri Sun Group
+- Carabao
+- Carlsberg: Carlsberg, Kronenbourg, BLANC, Holsten, Tuborg, SOMERSBY, CRAZY KVAS, GARAGE, Вятрачок, Baltika, Балтика.
+- Carnival: Карнівал, Carnival.
+- Carrefour
+- Caterpillar
+- CBRE
+- CD Projekt Red: Cyberpunk 2077, Відьмак.
+- Centrica: Центріка, Centrica.
+- Ceratizit
+- CGTraider
+- Champion
+- Chanel
+- Check Point Software
+- Cheyenne
+- Chipperfield
+- Chloe
+- Church & Dwight: Arm & Hammer, Batiste, Femfresh, First Response, L'il Critters, Nair, OxiClean, Pearl Drops, Trojan Condoms, Vitafusion, Xtra.
+- Cisco
+- Citrix
+- Clarivate
+- Cleary Gottlieb
+- Clifford Chance: Кліффорд ченс, Clifford Chance.
+- Clorox
+- CMA CGM
+- CME Group
+- Coco House
+- Cogent Communications
+- Commerzbank: Коммерсбанк, Commerzbank.
+- Compass Group
+- Condé Nast
+- Conformis
+- Coolbright
+- Corel
+- Coty: Max Factor, Rimmel, Bruno Banani, Bourjois, Sally Hansen, Bourjois Paris, CoverGirl, Nautica, Kylie Skin, Miu Miu, Lancaster, Monange, Katy Perry, JOOP!, Bozzano.
+- Couchsurfing
+- Coursera
+- Credit Agricole: Agricole, Кредіт Агріколь, Агріколь.
+- CRH
+- Cristaline
+- Crodo
+- Cswiss
+- Cummins: Куммінс, Cummins.
+- Curaprox
+- Currency.com
+- Dahua: Дахуа, Дауа.
+- Daimler
+- Danfoss: Данфосс, Danfoss.
+- Dassault
+- Dassault Aviation
+- DataArt: Data Art, ДатаАрт, Дата арт.
+- Deere & Company: John Deere, Джон Дір, Дір.
+- Deezer: дізер, Deezer.
+- Deichmann
+- Delfast
+- Dell
+- Deloitte
+- Delta Air Lines
+- Dentons: Дентонс, Dentons.
+- Dentsu International
+- Depositphotos
+- Deutsche Bank
+- Deutsche Telekom
+- Diageo: Smirnoff, Black Label, Johnnie Walker, J&B, Guinness, Baileys, Captain Morgan, Red label.
+- DigiCert
+- Dino Polska
+- Discogs
+- Discovery
+- DLA Piper
+- Docker
+- Dr.Oetker
+- Dunkin Donuts	: Данкін Донатс, Dunkin’ donuts.
+- Duolingo: дуолінго, дуолінгво.
+- Dyson
+- E.ON
+- EA Games
+- EarthDaily Analytics
+- EASA
+- Ebay: ебей, ібей, ибэй.
+- Ebury
+- Edeka
+- Egon Zehnder
+- Electrolux
+- Electronic Arts: EA, FIFA, Sims, NHL, APEX, MADDEN, UFC, NFS.
+- Embraer
+- Eni
+- Epam
+- Epic Games: EpicGames, Епік геймс, Fortnite, фортнайт.
+- Epson
+- Equinor
+- Ericsson
+- Ernst & Young: Ernst, ERNST AND YOUNG, Ernst&young, Ернст анд Янг, Ернст енд Янг.
+- ESA
+- ESAB
+- ESET
+- Esri
+- ESSE Skincare: esse, esse skincare.
+- Etsy: Етсі, Etsy.
+- EUMETSAT
+- Eurosport
+- Eurovision
+- Eversheds Sutherland
+- Expedia
+- Exxon: Ексон, Exxon.
+- Facebook
+- Farmasi
+- Fazer
+- FedEx
+- Ferrari: Феррарі, ФЕРАРІ.
+- FICO
+- FIDE
+- FIFA
+- Figma
+- Fiskars
+- Fitch
+- Fiverr
+- FMC
+- Fonterra
+- Ford: форд, Mustang, мустанг.
+- Formula 1
+- Fortinet
+- Fossil
+- Freshfields
+- Friele
+- Frosch: frosh, Фрош.
+- Fujitsu
+- Gameloft
+- Gardners
+- Garmin: Джармін, Гармін.
+- Geberit: Геберіт, Джеберіт.
+- Gemini: Геміні, Джеміні.
+- General Motors: Chevrolet, Nexia, Cadillac, Escalade, Hummer, General Motors, Buick.
+- Geodis
+- Gitlab
+- Global Foundries
+- GlobalLogic
+- Glovo
+- GoDaddy
+- Goshua
+- Graff
+- Grainpro
+- Grammarly
+- Grant Thornton
+- Grohe
+- Group Hortex: Hortex, Polski Ogród Sp. z o.o..
+- Grupa Azoty
+- Guardian Industries
+- H&M
+- Hansgrohe Group: AXOR, Hansgrohe.
+- Harley Davidson: Harley-Davidson, харлі девідсон, харлей.
+- Heidrick & Struggles
+- Heineken
+- Helcom
+- Hell Energy
+- Hempel
+- Herbalife: Herbalife Nutrition, Гербалайф.
+- Herbert Smith
+- Hermes
+- Hesburger
+- Hitachi Construction
+- Hogan Lovells
+- Holcim
+- Honda
+- Honeywell
+- Horst Brandstätter Group: Playmobil, Lechuza.
+- HP Enterprise
+- HP Inc.: HР, Hewlett Packard.
+- Hugo Boss
+- Humana
+- Humble Bundle: Back 4 Blood, Metro Exodus, Fable: Anniversary, Spyro Reignited Trilogy, The Long Dark.
+- Husqvarna
+- Hyundai Motor Group: Hyundai, Hyundai Motor Company, Kia Motors, Genesis Motors, Genesis.
+- Iberia: іберія, иберия.
+- IBM
+- ICBC
+- IGODEV LLC
+- iHerb
+- Illy
+- Imperial Brands: Davidoff, WEST, Parker & Simpson, JADE, пріма, Imperial Tobacco, Richmond, Fine, Rizla.
+- Imperva
+- Inebrya
+- Infosys
+- Inglot
+- Instagram: інстаграм, инстаграм.
+- Intel
+- Intenson
+- Intuit
+- IOC
+- is CLINICAL: is CLINICAL, isclinical, isclinikal, isclinickal, ізклінікал, es clinical.
+- Iveco
+- Jack Wolfskin
+- JCB
+- JD Sports
+- JetBrains: Intellij, Intellij IDEA, WebStorm, PHPStorm, JetBrains.
+- Jodo
+- Jooble
+- Josera
+- Jotun
+- Juniper Networks
+- Jysk
+- Kamstrup
+- Kappa
+- Kara
+- Karl Lagerfeld
+- Kaufland
+- Kearney: кірні, керні.
+- Kemira
+- Kering: Gucci, Saint Laurent, гучі, Bottega Veneta, Balenciaga, Alexander McQueen, Brioni, Yves Saint Laurent.
+- Kesko
+- Kiilto
+- Kingspan
+- Kingston Technology: HyperX, Hyper X, Predator, хіпер ікс, гіпер х.
+- Kinross Gold
+- KLM: klm, клм.
+- Knight Frank
+- Korean Air Lines
+- Korres
+- KPMG
+- Kraft Foods Inc.: Oscar Mayer, Philadelphia, філадельфія, PHILADELFIA.
+- Kratki
+- Krispy Kreme
+- Krombacher
+- Kuehne + Nagel AG
+- KUNA
+- Laboratorios Babe: babe, babe Laboratorios.
+- Lactacyd
+- Lamborghini
+- Lantmännen: Start, Start!, старт, AXA.
+- Lassie
+- Latham & Watkins
+- Lego
+- Leica Camera AG
+- Levi Strauss & Co: левіс, levi's, Levis, Dockers, Levi’s, Signature, LS&Co, докерс, сігнейча.
+- Lexmark
+- Lidl: Лідл, Лидл.
+- Lifan
+- Lifecell: life, лайф, Лайфселл.
+- Linklaters
+- LINX
+- Logitech
+- London Stock Exchange Group
+- Long chips
+- Louis Dreyfus
+- Loyd
+- LPP Spółka Akcyjna: Reserved, House, Cropp, Mohito, Sinsay.
+- Ludwik
+- Lufthansa
+- Lumene
+- LVMH: Christian Dior, Louis Vuitton, Givenchy, Guerlain, Hennessy, Chaumet, Fendi, Loewe, Rossimoda, Emilio Pucci, Loro Piana, Kenzo, Fenty, Princess Yachts, Stella McCartney, Marc Jacobs, Bulgari, TAG Heuer, DKNY, Jean Patou, Rimowa, Repossi, Phoebe Philo, Off-White, Moët & Chandon, Moet.
+- M&G
+- Macmillan Publishers
+- Maersk: мерск, маерск.
+- Magna
+- Makeup: Make up, мейкап, Make-up.
+- Marsh McLennan
+- MasterCard: мастеркард, Master card.
+- Mazda
+- McCain Foods
+- McCormick
+- McDonald's
+- McKinsey
+- Meder Beauty Science
+- Medik8: Medik8, Medic8, Medick8, медік8.
+- Megogo
+- Mercedes: мерседес, Mercedes-Benz, Mercedes Benz, Mersedes.
+- Meta
+- Metso Outotec
+- Mettler Toledo: меттлер толедо, метлер толедо.
+- Michael O'Mara
+- Michelin
+- MikroTik
+- Minecraft: майнкрафт, мейнкрафт.
+- Minutka
+- Miro
+- Mitsubishi Electric
+- Mlekovita
+- Mojang
+- Mokate: Loyd, Marila, Marizzi, Minutka, Babcia Jagoda, Caffetteria Mokate, Hi Easy, Mokate.
+- Moncler
+- MoneyGram
+- Monroe Energy
+- Moody's
+- Moog Inc.
+- Moose Toys
+- Morgan Lewis
+- Morrisons
+- Mothercare
+- Mozilla: мозілла, Firefox, Mozilla Firefox.
+- Multiplex: мультіплекс, Мультиплекс.
+- MVRDV
+- Nasdaq
+- Native shoes
+- NAY
+- Nemak
+- Neste Oyj: Neste Oil, Neste.
+- Netcracker
+- Netflix
+- Netscout
+- new balance: newbalance, нью беленс, нью баланс.
+- New Development Bank
+- Next
+- NHL
+- Niantic
+- Nike: jordan, Converse, Nike.
+- Nintendo
+- Nissan: нісан, ніссан, нисан, ниссан.
+- Nokia
+- nomi electronics
+- North face
+- Norton Rose Fulbright
+- Norwegian Cruise Lines
+- Novus
+- Nvidia: енвідіа, GeForce.
+- OBI
+- Oceana Cruises
+- Oerlikon
+- OLX Group: olx, олх.
+- Omnicom Group
+- OMV
+- OneWeb
+- OnlyFans
+- Ooops
+- OpenVPN: OpenVPN Cloud, OpenVPN Connect.
+- Oracle
+- Orei
+- Orkla
+- Orlen Lietuva
+- Panasonic
+- Pandora
+- Papa John's
+- Papaya
+- Par Pacific
+- Paramount
+- Parimatch: Паріматч, Parimatch.
+- Parker Hannifin
+- Paulig
+- Payoneer
+- PayPal: пейпал, пайпал.
+- Paysend
+- Paysera
+- Penguin Random House
+- Pepco
+- Pernod Ricard: Jameson, Ballantine's, Chivas, Martell, Ararat, Olmeca, Malibu, Becherovka, Ricard, Beefeater, Malfy, G.H.Mumm, Powers, Plymouth gin, Kahlua, Lillet, Lamb's, Altos, Monkey 47, Havana club, Aberlour, The Glenlivet, Royal salute, Passport scotch, чівас.
+- Philips
+- PlayStation
+- Polskie Górnictwo Naftowe i Gazownictwo SA
+- Ponsse PLC
+- Pornhub
+- Porsche
+- Prada
+- Preem AB
+- Preply
+- Primark
+- Publicis Group
+- Publicis Groupe: Publicis Groupe, Leo Burnett, BBH, Starcom.
+- Puma
+- PVH: Calvin Klein, Tommy Hilfiger, Phillips-Van.
+- PwC
+- PZU SA
+- Qantas Airlines
+- Qualcomm
+- R&A
+- Rabobank
+- Radio Free Europe
+- Ralph Lauren
+- Raytheon
+- Recruit Group
+- Red Hat: Linux, Red Hat, Red Hat Enterprise Linux.
+- Regent Seven Seas Cruises
+- Rehau Group: Rehau, Рехау.
+- Reima
+- Remitly Global
+- Remsey
+- Renault: рено, Dacia.
+- Renova
+- Revolut
+- Revolution Beauty: Revolution, REVOLUTION PRO, Makeup REVOLUTION.
+- Rewe International: Billa, Rewe.
+- Richemont: річмонт, ричмонт, A. Lange & Söhne, Azzedine Alaïa, BAUME, Buccellati, Giampiero Bodino, IWC Schaffhausen, Jaeger-LeCoultre, Officine Panerai, Peter Millar, Purdey, Roger Dubuis, Van Cleef & Arpels, Baume & Mercier, Cartier, Chloé, Montblanc, Piaget, Vacheron Constantin.
+- Ricoh
+- Rimi
+- RINGEL: Рінгел, Рінгель.
+- Rio Tinto
+- Rituals : Rituals, Rituals Cosmetics.
+- Rocket
+- Rockwell Automation
+- Roku
+- Roland Berger
+- Rolex
+- Rolls-Royce: ролс ройс, ролс-ройс, Rolls royse, Rolls Royce.
+- Rossmann: isana, domol, Bebivita, РОСМАН, ІСАНА, Facelle.
+- Rovio
+- Ryanair
+- S&P
+- Sabre
+- Salesforce
+- Salewa
+- Salvatore Ferragamo
+- Samsonite International
+- San Mare: san mare fragolino, Сан Маре Фраголіно.
+- Sandvik: сандвік, сендвік.
+- Savills
+- Scandinavian Tobacco
+- Scania
+- Schogetten
+- Sephora
+- Serpstat
+- Sharp
+- Sherp
+- Shiseido: шисейдо, шісейдо.
+- Signet Jewelers
+- Simon & Schuster
+- Skechers: скечерс, скетчерс, sketchers.
+- Skoda
+- Skyscanner
+- Slack
+- Smart games
+- Smurfit kappa
+- Smyk
+- Snapchat
+- Socar
+- Sodexo
+- Softserve: софт серв, софтсерв.
+- SonoSim
+- Sony: соні, Sony Pictures.
+- SpaceX: Starlink, Star link, Старлінк, стар лінк.
+- Spar
+- Spotify
+- Squire Patton Boggs
+- Stanley Black & Decker: Dewalt, Stanley, Stanley Black & Decker.
+- Starbucks
+- Staropramen: старопрамен, Budweiser Budvar, бад.
+- State Street
+- Stellantis: Peugeot, пежо, Citroen, сітроен, Opel, DS, фіат, Fiat, Alfa Romeo, альфа ромео, Lancia, Maserati, Chrysler, крайслер, Dodge, додж, Jeep, Опель.
+- Stihl
+- Stora Enso
+- Strabag
+- Subaru
+- Sulzer
+- Sun Generation: ТЕТ, RealTaste, grace, g'tea.
+- Supercell: Clash of Clans, Clash Royale, Brawl Stars, Hay Day, Boom Beach, БРАВЛ СТАРС.
+- Swarovski
+- Sweco
+- Sylvamo
+- Systembolaget
+- Tally Weijl
+- Tata Steel
+- Tchibo
+- TeamViewer
+- Teknotherm Marine HVAC sp. z o.o.
+- Telegram
+- Teradata
+- Terra di grano
+- Tesla
+- Tetra Pak
+- The Barbarian Raw Bar
+- The Bookseller
+- The Coca-Cola Company: Sprite, Schweppes, Burn, BonAqua, Fanta, Monster, Fuzetea, Rich, Dr Pepper, Coca-Cola, Monster Energy.
+- The Gutsy Captain
+- The Inkey list
+- The Ordinary
+- The Walt Disney Company: марвел, Lucasfilm, Marvel, Pixar, дісней, Disney.
+- Thermo Fisher
+- Tietoevry
+- Timberland
+- Timken
+- TJ Maxx
+- Torsus
+- Toshiba
+- Trane Technologies
+- TRAPA
+- Trimble
+- TripAdvisor
+- Trixie
+- TSMC
+- TUI
+- Twin Disc
+- Twitter: твіттер, твітер.
+- Uber
+- Udemy
+- UEFA: уєфа, уефа.
+- Under Armour
+- Uniper SE
+- Uniqlo
+- United Airlines
+- Universal Music
+- UPS
+- Vaillant
+- Valero Energy
+- Valio
+- Vanguard
+- Vans
+- Veeam
+- Velux
+- Veresfood
+- Verlagsgruppe Oetinger
+- Victoria's Secret
+- Vigo вода
+- Visa
+- Viva Energy
+- VMware
+- Vodafone
+- Volkswagen: Seat, Volkswagen.
+- Volvo
+- VyOS
+- Waitrose
+- Warner Bros
+- WarnerMedia: НВО, HBO.
+- Waters Corporation
+- Watsons: ватсонс, ватсон.
+- Weleda
+- Wella Company: Wellaflex, Wella Professionals, Nioxin, Clairol, SEB Man, Sebastian Professional, weDo/ Professional, System professional, Kadus professional, Londa professional, Sassoon professional, Clairol professional, OPI, Wellaton, Wella.
+- Western Union
+- WeWork
+- Whirlpool Corporation: Indesit, Roper, Maytag, KitchenAid, Jenn-Air, Amana, Admiral, Affresh, Gladiator, Inglis, Hotpoint, Polar, Bauknecht, Diqua, Royalstar, Whirlpool.
+- White & Case
+- Winston & Strawn
+- Wise PLC
+- Wolverine World Wide: Bates, Cat Footwear, Chaco, Hush Puppies, HYTEST, Keds, Merrell, Saucony, Sperry, Stride Rite, Sweaty Betty, Wolverine, Меррелл.
+- Woseba
+- WPP
+- WPP PLC
+- WWE
+- Xbox: ікс-бокс, X box.
+- Xerox
+- YKK Group
+- Yoga Food
+- Yokohama
+- YOOX
+- YouScan
+- Yum! Brand's: Yum! Brands, KFC, Pizza Hut, Taco Bell.
+- Żabka
+- ZHA
+- Ziaja
+- Zoom
+- Взуття Teva
+- Оbag: o'bag, o bag, обег, обаг.
+- Олейна
+- Стандартпарк
