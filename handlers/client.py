@@ -3,12 +3,16 @@ from aiogram.dispatcher import filters, FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 import threading
 from create_bot import dp, bot
-from keyboards import kb_client_global, kb_client_list
+from keyboards import kb_client_global, kb_client_list, CompanySearchOptions
 from models import DBSession, CompanyName, Company
 from settings import PROJECT_ROOT
+import logging
+from fuzzywuzzy import fuzz
 
 
 class CheckByName(StatesGroup):
+	options = []
+	waiting_for_company_selection = State()
 	waiting_for_name = State()
 
 
@@ -40,13 +44,12 @@ async def command_start(message: types.Message):
 
 async def global_action(message: types.Message):
 	try:
-		match message.text:
-			case 'Перевірка за назвою':
-				await message.reply('Введіть назву бренду / компанії')
-			case 'Списки компаній':
-				await message.reply(text='Які компанії вас цікавлять? 🤔', reply_markup=kb_client_list)
-			case 'Перевірка за фото':
-				await message.reply('Відправте фото з назвою')
+		if message.text == 'Перевірка за назвою':
+			await message.reply('Введіть назву бренду / компанії')
+		elif message.text == 'Списки компаній':
+			await message.reply(text='Які компанії вас цікавлять? 🤔', reply_markup=kb_client_list)
+		elif message.text == 'Перевірка за фото':
+			await message.reply('Відправте фото з назвою')
 	except Exception as e:
 		print(e)
 
@@ -59,24 +62,80 @@ async def check_by_name(message: types.Message):
 
 @dp.message_handler(state=CheckByName.waiting_for_name)
 async def process_check_name(message: types.Message, state: FSMContext):
+	async with state.proxy() as data:
+		data['company_name'] = message.text
+
 	try:
-		company_name = message.text.lower()
-		session = DBSession
-		company = session.query(Company).join(CompanyName).filter(CompanyName.name.ilike(f'%{company_name}%')).first()
-		company_id = company.id
-		list_of_names = session.query(CompanyName).filter_by(company_id=company_id).all()
-		name = ''
-		for it in list_of_names:
-			if company_name.lower() in it.name.lower(): name = it.name
-		if company:
-			description = company.description
-			await message.reply(f'{name}:{description}', reply_markup=kb_client_global)
-		# else:
-		# 	await message.reply(f"Компанію: {company_name} не знайдено ", reply_markup=kb_client_global)
+		db = DBSession
+		company_name = data['company_name']
+
+		# Check if company_name is already registered in the database
+		existing_company = db.query(CompanyName).filter_by(name=company_name).first()
+		if existing_company:
+			company_id = existing_company.company_id
+		else:
+			# If not, try to find a matching company name in the database
+			companies = db.query(CompanyName).all()
+			matching_companies = []
+			for company in companies:
+				ratio = fuzz.ratio(company.name.lower(), company_name.lower())
+				if ratio >= 80:  # threshold for a "good enough" match
+					matching_companies.append(company)
+			if len(matching_companies) == 0:
+				await message.reply(f"Компанію '{company_name}' не знайдено", reply_markup=kb_client_global)
+				return
+			elif len(matching_companies) == 1:
+				company_id = matching_companies[0].company_id
+			else:
+				# If multiple matching companies were found, ask the user to select one
+				search_options = CompanySearchOptions(matching_companies)
+				keyboard = search_options.get_inline_keyboard()
+				reply_text = f"Знайдено декілька компаній, виберіть будь ласка потрібну:"
+				await message.reply(reply_text, reply_markup=keyboard)
+				async with state.proxy() as data:
+					data['matching_companies'] = matching_companies
+				await CheckByName.waiting_for_company_selection.set()
+				return
+
+		# If we found a company ID, get the description and reply to the user
+		company_obj = db.query(Company).filter_by(id=company_id).first()
+		if company_obj is None:
+			await message.reply(f"Для компанії '{company_name}' не знайдено опис", reply_markup=kb_client_global)
+		else:
+			await message.reply(f'{company_name}: {company_obj.description}', reply_markup=kb_client_global)
+
+	except Exception as e:
+		await message.reply(f"Під час пошуку компанії сталася помилка: {e}", reply_markup=kb_client_global)
+	finally:
+		CheckByName.options.clear()
 		await state.finish()
-	except AttributeError:
-		await message.reply(f"Компанію: {company_name} не знайдено ", reply_markup=kb_client_global)
-		await state.finish()
+
+
+@dp.message_handler(state=CheckByName.waiting_for_company_selection)
+async def process_company_selection(message: types.Message, state: FSMContext):
+	company_id_to_name = {}
+	async with state.proxy() as data:
+		company_id = data['company_id']
+		company_name = data['company_name']
+		company_id_to_name[data[company_id]] = data[company_name]
+	selected_company_id = int(message.text)
+	# Ensure that the user has selected a valid company
+	if selected_company_id not in company_id_to_name:
+		await message.answer("Помилка, оберіть компанію зі списку")
+		return
+	# Get the name of the selected company
+	selected_company_name = company_id_to_name[selected_company_id]
+	# Get the description of the selected company
+	try:
+		description = process_check_name(selected_company_id)
+	except:
+		await message.answer("Помилка при спробі дістати опис")
+		return
+	# Send the company description back to the user
+	await message.answer(f"{selected_company_name}: {description}")
+	# Clear the conversation state
+	await state.finish()
+
 
 @dp.message_handler(filters.Regexp('Списки компаній'))
 async def send_list(message: types.Message):
