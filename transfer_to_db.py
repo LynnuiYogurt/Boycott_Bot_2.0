@@ -14,16 +14,27 @@ from models import CompanyName, Company,DBSession
 
 
 
-def update_company_description(company_name: str, description: str):
-    session = DBSession
-    company = session.query(Company).join(CompanyName).filter(CompanyName.name.ilike(f'%{company_name}%')).first()
+def update_company_description(company_name: str, company_id: int, description: str):
+    session = DBSession()
+    company = session.query(Company).get(company_id)
 
     if company:
-        company.description = description
+        # Check if the company name already exists
+        existing_name = session.query(CompanyName).filter_by(name=company_name, company_id=company_id).first()
+
+        if existing_name:
+            existing_name.company.description = description
+        else:
+            # Add new CompanyName record
+            company_name_record = CompanyName(name=company_name, company_id=company_id)
+            session.add(company_name_record)
+            company.description = description
+
         session.commit()
         print(f"Updated description for {company_name}")
     else:
-        print(f"Company {company_name} not found")
+        print(f"Company with ID {company_id} not found")
+
 
 
 
